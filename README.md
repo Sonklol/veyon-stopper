@@ -21,6 +21,6 @@ $ .\main.ps1
 
 OR
 ```
-<div align="center">
+<div>
 <img src="https://github.com/Sonklol/veyon-stopper/blob/main/screenshot-3.png?raw=true"/>
 </div>
