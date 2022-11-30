@@ -1,6 +1,6 @@
 #$host.UI.RawUI.WindowTitle = "VEYON STOPPER"
 
-while(1 -ne 0){
+while($true){
     $var = Get-Process -Name veyon-worker -ErrorAction SilentlyContinue | Select-String veyon-worker -ErrorAction SilentlyContinue
     while($var -like "System.Diagnostics.Process (veyon-worker)")
     {
