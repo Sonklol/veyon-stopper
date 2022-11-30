@@ -1,4 +1,4 @@
-#$host.UI.RawUI.WindowTitle = "VEYON STOPPER"
+$host.UI.RawUI.WindowTitle = "VEYON STOPPER - github.com/Sonklol"
 
 while($true){
     $var = Get-Process -Name veyon-worker -ErrorAction SilentlyContinue | Select-String veyon-worker -ErrorAction SilentlyContinue
